@@ -12,7 +12,7 @@ function RotatingBox() {
     mesh.current.rotation.y += 0.01;
   });
 
-  return (
+  return ( 
     <mesh ref={mesh}>
       <boxGeometry />
       <meshStandardMaterial color="orange" />
